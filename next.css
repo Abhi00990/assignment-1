@@ -1,0 +1,111 @@
+{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin:10em;
+    padding:0;
+    box-sizing: border-box;
+    box-shadow:30px solid black;
+
+}
+.upper-container{
+    background-image: url(pic2.jpg);
+    background-color: rgb(234, 228, 228);
+    padding: 50px;
+    text-align: left;
+    font-size: 1em;
+    height: 200px;
+    border: 2px solid #ccc;
+    box-shadow: 3em rgb(57, 55, 55);
+
+    
+}
+h1{font-size: 3em;
+   font-weight:bold;
+   color: rgb(255, 255, 255);
+}
+p{color: rgb(18, 17, 17);}
+
+.Learn-more{
+    padding:10px 20px;
+    background-color: rgb(73, 126, 242);
+    color: white;
+    border-radius:0.5em;
+    border:none;
+    cursor: pointer;
+
+    
+}
+.lower-container{
+    background-image: url(pic5\ -\ Copy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 2px solid #f5eded;
+    box-shadow: 3em rgb(56, 56, 56);
+    padding:10px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+    text-align: left;
+}
+.kk{
+    color: white;
+}
+.ppp{
+    color: rgb(211, 210, 210);
+}
+    
+h2{
+    color:black;
+}
+.box{
+    border:none;
+    box-shadow: 5em rgb(57, 57, 57);
+}
+.View-details{
+    padding: 8px;
+    cursor: pointer;
+    background-color: #faf4f4;
+    border: none;
+    color: black;
+    border-radius: 4px;
+}
+a { color:black;
+    background-color:whitesmoke;
+    padding: 3px;
+    border-radius:2px;
+    text-decoration:none;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    border:1px;
+    background-color:solid rgb(243, 238, 238);
+    padding: 10px;
+    overflow:hidden;
+    text-align: right;
+    font-size:1em;
+}
+.navbar a{
+    float: right;
+    display:block;
+    color:rgb(13, 13, 13);
+    text-align:right;
+    text-decoration: none;
+    padding:10px;
+
+}
+.navbar a:hover{
+    background-color: rgb(14, 15, 15);
+    color: rgb(251, 249, 249);
+}
+
+    
